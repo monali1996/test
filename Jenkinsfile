@@ -9,7 +9,7 @@ pipeline {
 
     stage('buzz test') {
       steps {
-        sh './jenkins/test-all.sh'
+        echo 'm testing'
       }
     }
 
